@@ -97,7 +97,7 @@ u8g.firstPage();
 }
 
 void draw(){
-   u8g.setFont(u8g_font_fub17r);   // select font
+   u8g.setFont(u8g_font_profont17r);   // select font
    u8g.drawStr(0, 20, "Temp: ");   // put string of display at position X, Y
    u8g.drawStr(0, 60, "Hum: ");
    u8g.setPrintPos(72, 20);        // set position
